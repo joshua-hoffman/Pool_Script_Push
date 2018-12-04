@@ -15,6 +15,4 @@ sshpass -p "Password" ssh -o StrictHostKeyChecking=no -o LogLevel=quiet root@10.
 
 done
 
-
-
 cat $HWDIR/* >> $HWDIR/HW_Output_All.txt
